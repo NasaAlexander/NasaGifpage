@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+    <link rel="stylesheet" href="./css/pruducto-1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="thumb">
+            <ul>
+                <li onmouseover="chnageImgSrc('./img/Nasa-1.png')"><img src="./img/Nasa-1.png" alt=""></li>
+                <li onmouseover="chnageImgSrc('./img/carta-2.png')"><img src="./img/carta-2.png" alt=""></li>
+                <li onmouseover="chnageImgSrc('./img/carta-3.png')"><img src="./img/carta-3.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="imgBox">
+            <h2>Carta zoom</h2>
+            <img src="./img/Nasa-1.png" alt="" class="shoes">
+            <ul class="sizes">
+                <span>Costo</span>
+                <li>$</li>
+                <li>3</li>
+                <li>3</li>
+                <li>0</li>
+            </ul>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </div>
+
+
+    <script>
+        function chnageImgSrc(src) {
+            document.querySelector('.shoes').src = src;
+        }
+    </script>
+</body>
+</html>
+            
